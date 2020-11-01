@@ -1,0 +1,25 @@
+https://www.zaferarican.com/post/how-to-save-1gb-memory-on-jetson-nano-by-installing-lubuntu-desktop
+
+Remove ubuntu-desktop
+
+            sudo apt remove --purge ubuntu-desktop
+
+Install lxdm display manager. It may prompt a dialog to choose a display manager. Choose lxdm
+
+            sudo apt install lxdm
+
+Remove Ubuntu Unity's default display manager gdm3
+
+            sudo apt remove --purge gdm3
+
+Ubuntu 18.04 do not have Lubuntu-desktop as a package in repo. That's why, Install LXDE desktop environment if you have 18.04.
+
+           sudo apt install lxde
+
+For 18.10 and above you can install Lubuntu-desktop by
+
+           sudo apt install lubuntu-desktop
+
+It is recommended to reinstall lxdm to reconfigure for lubuntu-desktop
+
+            sudo apt install --reinstall lxdm
