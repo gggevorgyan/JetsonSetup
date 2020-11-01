@@ -10,3 +10,5 @@
 4. OpenCV setup https://forums.developer.nvidia.com/t/process-to-install-opencv-4-1-on-nano/75801
 
 5. Fan control https://github.com/Pyrestone/jetson-fan-ctl
+
+6. Ardu cam setup, not easy http://wiki.inno-maker.com/display/CAMIMX219/For+Jetson+Nano#ForJetsonNano-Step4,TestCameras
