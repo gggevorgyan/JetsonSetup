@@ -8,3 +8,5 @@
 3. Save memory https://www.zaferarican.com/post/how-to-save-1gb-memory-on-jetson-nano-by-installing-lubuntu-desktop
 
 4. OpenCV setup https://forums.developer.nvidia.com/t/process-to-install-opencv-4-1-on-nano/75801
+
+5. Fan control https://github.com/Pyrestone/jetson-fan-ctl
